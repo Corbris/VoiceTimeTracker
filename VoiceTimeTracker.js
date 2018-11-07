@@ -1,3 +1,5 @@
+//change this for git learning
+
 const request = require('request');
 var Discord = require('discord.io');
 var logger = require('winston');
