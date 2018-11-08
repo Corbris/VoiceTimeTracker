@@ -27,7 +27,7 @@ setInterval(function() {
 const channels = bot.channels;//ALL channels the bot is linked to. 
 			for(var cid in channels) //cid = channel ID
 			{ 	
-				if(bot.channels[cid].name == 'AFK')
+				if(bot.channels[cid].name != 'AFK')
 				{
 					var mems = bot.channels[cid].members;   //each member collection in that channel
 					for(var mid in mems)  //mid = member ID
